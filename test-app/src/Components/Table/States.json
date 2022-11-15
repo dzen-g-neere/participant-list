@@ -1,0 +1,8 @@
+{
+    "NameAsc": "nameAsc",
+    "NameDec": "nameDesc",
+    "EmailAsc": "emailAsc",
+    "EmailDec": "emailDesc",
+    "PhoneAsc": "phoneAsc",
+    "PhoneDec": "phoneDesc"
+}

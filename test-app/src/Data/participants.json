@@ -1,0 +1,122 @@
+[
+    {
+      "id": 0,
+      "name": "John Doe",
+      "email": "john.doe@gmail.com",
+      "phone": "0405678471"
+    },
+    {
+      "id": 1,
+      "name": "Caroline Jonson",
+      "email": "caroline.jons@gmail.com",
+      "phone": "1297312156"
+    },
+    {
+      "id": 2,
+      "name": "Dmitrii Zalevskii",
+      "email": "dmitrii.zalev@gmail.com",
+      "phone": "2341538121"
+    },
+    {
+      "id": 3,
+      "name": "Alex Hirsh",
+      "email": "alex.hirsh@gmail.com",
+      "phone": "5300530029"
+    },
+    {
+      "id": 4,
+      "name": "Michael Reeves",
+      "email": "michael.reeves@gmail.com",
+      "phone": "9658783574"
+    },
+    {
+      "id": 5,
+      "name": "Olavi Erkkila",
+      "email": "olavi.erkkila@gmail.com",
+      "phone": "8745682495"
+    },
+    {
+      "id": 6,
+      "name": "Antero Kivela",
+      "email": "antero.kivela@gmail.com",
+      "phone": "9347587546"
+    },
+    {
+      "id": 7,
+      "name": "Tapani Smith",
+      "email": "tapani.smith@gmail.com",
+      "phone": "7277472243"
+    },
+    {
+      "id": 8,
+      "name": "Helena Holmes",
+      "email": "helena.holmes@gmail.com",
+      "phone": "5928632352"
+    },
+    {
+      "id": 9,
+      "name": "Johanna Williams",
+      "email": "johanna.williams@gmail.com",
+      "phone": "2348694754"
+    },
+    {
+      "id": 10,
+      "name": "Karina Dizel",
+      "email": "karina.dizel@gmail.com",
+      "phone": "0812367134"
+    },
+    {
+      "id": 11,
+      "name": "George Watson",
+      "email": "george.watson@gmail.com",
+      "phone": "1884828724"
+    },
+    {
+      "id": 12,
+      "name": "Daniil Petrov",
+      "email": "daniil.petrov@gmail.com",
+      "phone": "6758237425"
+    },
+    {
+      "id": 13,
+      "name": "Evgenii Health",
+      "email": "evgenii.health@gmail.com",
+      "phone": "1734975205"
+    },
+    {
+      "id": 14,
+      "name": "Jane Neyman",
+      "email": "jane.neyman@gmail.com",
+      "phone": "2345234520"
+    },
+    {
+      "id": 15,
+      "name": "Summer Mercedes",
+      "email": "summer.mercedes@gmail.com",
+      "phone": "1937193771"
+    },
+    {
+      "id": 16,
+      "name": "Hideo Kodjima",
+      "email": "hideo.kodjima@gmail.com",
+      "phone": "2085454633"
+    },
+    {
+      "id": 17,
+      "name": "Artem Shybaev",
+      "email": "artem.shybaev@gmail.com",
+      "phone": "2452345234"
+    },
+    {
+      "id": 18,
+      "name": "Catrine Kozlova",
+      "email": "catrine.kozlova@gmail.com",
+      "phone": "9857728477"
+    },
+    {
+      "id": 19,
+      "name": "Mark Rober",
+      "email": "mark.rober@gmail.com",
+      "phone": "2952734203"
+    }
+  ]

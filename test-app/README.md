@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# participant-list
+![image](https://user-images.githubusercontent.com/54273707/201926012-59f12614-23df-4e58-b68c-7155b5ade516.png)
+Table with participants credentials. Allows to edit and delete credentials directly in table. Form which allows to add a new participant to the table.
+
+This app allows you to manage list of participants with their credentials.
+
+![image](https://user-images.githubusercontent.com/54273707/201922875-1dcbbd82-61a5-4e51-98eb-f86f33c11a8b.png)
+Form allows you to enter credentials and add a new participant to your table. Click on input fields to insert necessary information. Click "Add new" button to add a new participant to the table.
+
+![image](https://user-images.githubusercontent.com/54273707/201923384-09999552-28c0-4438-b202-fd3bb20bbe32.png)
+Table header allows you to sort participant by any column. Simply click on category by which you want to sort. Arrow indicator will show the direction of sorting.
+
+![image](https://user-images.githubusercontent.com/54273707/201923864-a1e7e5ef-f3eb-4e4b-a9a9-f7d01daad93a.png)
+You can delete participant directly by clicking on the '🗑️' button. You can also edit participants' credentials by clicking on the '✏️' button.
+
+![image](https://user-images.githubusercontent.com/54273707/201924697-6310cde1-853c-4922-a244-669b9f703a22.png)
+In the 'editing' state you will see input fields with participant's credentials. By clicking on these input fields you can edit information in them. The only way to save new credentials is to click the 'Save' button. If you click 'Cancel' or click an edit button('✏️') of another participant, changes would not be saved.
+
+
+
+# Developer guide
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

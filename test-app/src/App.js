@@ -2,30 +2,45 @@ import { useState } from "react";
 import Form from "./Components/Form.js";
 import Table from "./Components/Table/Table.js";
 
+import "./Styles/App.css";
+import logo from "./Assets/Images/logo.png";
+
+import arr from './Data/participants.json';
+
 function App() {
-  var [participants, setParticipants] = useState([
-    {
-      id: 0,
-      name: "John Doe",
-      email: "john.doe@gmail.com",
-      phone: "0405678471",
-    },
-  ]);
-  const changeParticipant = (newParticipant) => {};
+  const [participants, setParticipants] = useState(arr);
+
+  const changeParticipant = (newParticipant) => {
+    setParticipants((participants) => {
+      let participantsNew = participants.filter(
+        (participant) => participant.id !== newParticipant.id
+      );
+      return [...participantsNew, newParticipant];
+    });
+  };
 
   const deleteParticipant = (index) => {
-    console.log("delete", index);
     setParticipants((participants) =>
       participants.filter((participant) => participant.id !== index)
     );
   };
+
   const addParticipant = (newParticipant) => {
-    newParticipant.id = participants.length;
-    setParticipants((participants) => [...participants, newParticipant]);
+    setParticipants((participants) => {
+      newParticipant.id = participants.length;
+      let participantsNew = [...participants];
+      return [...participantsNew, newParticipant];
+    });
   };
+
   return (
     <div className="App">
+      <div className="header">
+        <img src={logo} alt="" />
+        <h1 className="table-title">Starlord Software</h1>
+      </div>
       <div className="content">
+        <h1 className="table-title">List of participants</h1>
         <Form arr={participants} addParticipant={addParticipant} />
         <Table
           arr={participants}
